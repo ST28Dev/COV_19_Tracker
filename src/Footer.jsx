@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="bg-dark m-0 p-3 row">
-        <div className="col d-inline-flex justify-content-between">
+        <div className="col flex-md-row d-flex flex-column justify-content-between">
           <div className="d-block" id="credit_bloc">
             <h4 className="text-warning">Credits</h4>
             <p className="text-warning fw-light d-block m-0">Data retrieved from: <a target="_blank" href="https://pipedream.com/@pravin" className="link-info" >https://pipedream.com/@pravin</a>. All assets belong to their own rightful owners. No ownership is claimed of third-party assets used in this project.</p>
