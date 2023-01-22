@@ -22,6 +22,9 @@ table tr{
 #credit_bloc{
   width: 80%;
 }
+#header_comp{
+  width: 100%;
+}
 ul.term_list{
   width: 40%;
   margin: 0px;

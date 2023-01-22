@@ -59,7 +59,7 @@ const About = () => {
 
   return (
     <div className="m-3">
-      <h4 className="h2 fw-light">About: </h4>
+      <h4 className="display-6">About: </h4>
       <button className="btn btn-primary mb-2" onClick={toggleAbout}>Toggle</button>
 
       <div style={{ display: "none" }} className="container m-0 p-3 bloc" id="about_container">
@@ -75,10 +75,10 @@ const About = () => {
 
 
       <div>
-        <h4 className="h2 fw-light">Notes: </h4>
+        <h4 className="display-6">Notes: </h4>
         <button className="btn btn-primary mb-2" onClick={toggleNotes}>Toggle</button>
         <div className="container m-0 bloc p-3" id="notes_container" style={{ display: "none" }}>
-          <blockquote className="blockquote m-0">
+          <blockquote className="blockquote">
             <p className="mb-5"> This section will provide an overview of the statistics involved in this project and some specific aspects of the application.</p>
           </blockquote>
           <div className="row mb-4">
@@ -92,21 +92,21 @@ const About = () => {
                 <li onClick={update} className="list-group-item">Last Updated</li>
               </ul>
             </div>
-          
+
             <div className="col" >
               <p className="h5 fw-normal lh-lg" id="information_comp"></p>
             </div>
           </div>
-          
-          <hr/>
-          <div className="my-4 p-2 general_notes_bloc">
+
+          <hr />
+          <div className="bg-light my-4 p-2 general_notes_bloc">
             <h4 className="p-3">General notes</h4>
             <ul className="list-group list-group-flush mx-4 mb-4" >
-              <li className="list-group-item ">Values for some statistics may be missing for some countries. In such an event, this will be reflected by the value "N/A".</li>
-              <li className="list-group-item ">There may not exist any recorded data for some counties.</li>
-              <li className="list-group-item ">There may be instances where the data fails to load, which will be reflected by the appearance of a red error alert message in the place where the data should be. A simple page refresh should address this, but if the error persists, contact: <span className="text-info fw-bold">TS28Dev@gmail.com</span></li>
-              <li className="list-group-item ">An empty search field query will collectively display all of the records at once.</li>
-              <li className="list-group-item ">The dataset, as well as the tools used in the implementation of the application and my respective social links can be located in the footer.</li>
+              <li className="list-group-item bg-light ">Values for some statistics may be missing for some countries. In such an event, this will be reflected by the value "N/A".</li>
+              <li className="list-group-item bg-light ">There may not exist any recorded data for some counties.</li>
+              <li className="list-group-item bg-light ">There may be instances where the data fails to load, which will be reflected by the appearance of a red error alert message in the place where the data should be. A simple page refresh should address this, but if the error persists, contact: <span className="text-info fw-bold">TS28Dev@gmail.com</span></li>
+              <li className="list-group-item bg-light ">An empty search field query will collectively display all of the records at once.</li>
+              <li className="list-group-item bg-transparent ">The dataset, as well as the tools used in the implementation of the application and my respective social links can be located in the footer.</li>
             </ul>
           </div>
         </div>
@@ -114,15 +114,15 @@ const About = () => {
       </div>
 
       <div>
-        <h4 className="h2 fw-light">Sources:</h4>
+        <h4 className="display-6">Sources:</h4>
         <button className="btn btn-primary mb-2" onClick={toggleSources}>Toggle</button>
         <div className="bloc p-3 container m-0" id="sources_container" style={{ display: "none" }}>
-          <p className="h5 fw-normal mb-3 lh-lg">
-            This section contains all the sources consulted to compile the definitions for each term in the <span className="text-success fw-bold">Notes</span> section. Each source is cited in <span className="text-success fw-bold">MLA Format</span> (See <a rel="noreferrer" href="https://owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_formatting_and_style_guide.html" target="_blank">this</a> for more information on the MLA format.)
+          <p className="h5 fw-normal mb-3">
+            This section contains all the sources consulted to compile the definitions for each term in the <span className="text-success fw-bold">Notes</span> section. Each source is cited in <span className="text-success fw-bold">MLA Format</span> (See <a href="https://owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_formatting_and_style_guide.html" target="_blank">this</a> for more information on the MLA format)
           </p>
           <hr />
           <h3 className="text-center text-lg">Sources Used:</h3>
-          <div>
+          <div className="overflow-auto">
             <ol className="h6 lh-lg">
               <li>Harrington, Rebecca A.. "case fatality rate". Encyclopedia Britannica, 5 May. 2020, https://www.britannica.com/science/case-fatality-rate. Accessed 13 January 2023.</li>
               <li>“Principles of Epidemiology.” Centers for Disease Control and Prevention, Centers for Disease Control and Prevention, 18 May 2012, https://www.cdc.gov/csels/dsepd/ss1978/lesson3/section2.html#:~:text=Thus%2C%20the%20incidence%20rate%20is,is%20at%20risk%20of%20disease. </li>

@@ -8,7 +8,7 @@ const Footer = () => {
       </div>
   */
   return (
-    <footer>
+    <footer className="min-vw-100">
       <div className="bg-dark m-0 p-3 row">
         <div className="col flex-md-row d-flex flex-column justify-content-between">
           <div className="d-block" id="credit_bloc">
