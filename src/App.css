@@ -19,6 +19,9 @@ table tr{
   width: 25%;
   display: inline;
 }
+#credit_bloc{
+  width: 80%;
+}
 ul.term_list{
   width: 40%;
   margin: 0px;
@@ -36,9 +39,10 @@ div.bloc{
 }
 
 div.general_notes_bloc{
-  background-color: #ededed;
+  background-color: #ebebeb;
 }
 
 div.general_notes_bloc li{
-  background-color: #ededed;
+  background-color: #ececec;
 }
+
